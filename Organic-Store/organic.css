@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #333333;
+}
+.container {
+  height: auto;
+  width: auto;
+  background-color: #ffffff;
+}
+.cartLogo {
+  height: 30px;
+  width: 30px;
+}
+.navbar {
+  height: 10%;
+  width: 100%;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  font-family: "open sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.nav-left {
+  width: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav-right {
+  width: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.cart-price {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.Profile-logo {
+  height: 25px;
+  width: 25px;
+}
+
+/* Main */
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContent {
+  width: 100%;
+  height: 1250px;
+  background-color: #fafaf8;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.main-left {
+  height: 80%;
+}
+.main-left img {
+  height: inherit;
+}
+.main-right {
+  height: 80%;
+  margin-left: 90px;
+
+}
+.right-content {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.right-content-leafImage{
+    height: 53px;
+    width: 130px;
+}
+.right-content h3 {
+  font-size: 2rem;
+}
+.right-content h1 {
+  font-size: 5.25rem;
+  font-family: "Merriweather", serif;
+  line-height: 1.3em;
+}
+.right-content p {
+  font-size: 1.5rem;
+  font-family: 'Merriweather', serif;
+
+
+  font-style: inherit;
+  font-weight: inherit;
+}
+/* .shopNow-Button{
+    background-color: #6A9739;
+    color: white;
+} */
+.shopNow-Button button{
+    display: flex;
+    padding: 19px 78px;
+    background-color: #6A9739;
+    color: white;
+    font: caption;
+}
+
+/* Speciality */
+.speciality{
+    height: 350px;
+    width: 100%;
+    background-color: #111111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.speciality-Card{
+    height: 192px;
+    width: 400px;
+    background-color: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.speciality-Card div{
+    margin: 10px;
+    /* padding: 20px; */
+}
+.speciality-Card-Icon img{
+height: 50px;
+width: 50px;
+}
+.speciality-Card-Text{
+  font-size: 1.5rem;
+  color: white;
+}
+.speciality-Card-Price{
+    display: flex;
+    flex-direction: column;
+}
+
+/* bestSelling */
+.bestSelling-Section{
+  height: auto;
+  width: 100%;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+
+}
+.bestSelling-Section h1{
+  font-size: 4rem;
+  text-align: center;
+}
+.bestSelling-Section-Img{
+  height: 55px;
+  width: 143px;
+  align-self: center;
+  margin-top: 50px;
+}
+.bestSelling-Cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 50px;
+}
+.bestSelling-Card{
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 350px;
+}
+.bestSelling-Card-Image-Container{
+  height: 80%;
+  width: 100%;  
+}
+.bestSelling-Card-Image{
+  height: 100%;
+  width: 100%;
+}
+.bestSelling-Card-Content{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 22px;
+}
+.bestSelling-Card-Category{
+  color: #333333;
+  font-family: "open sans",sans-serif;
+}
+.bestSelling-Card-Price{
+  font-weight: bolder;
+}
+
+/* Fruit, vegetables, legume */
+
+.fr-veg-leg{
+  height: 800px;
+  width: 100%;
+  margin-top: 250px;
+  background-color: #F8F6F3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+}
+.fr-veg-leg-card{
+  height: 70%;
+  width: 500px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgba(176,180,183,.17);
+ 
+  /* background-image: url(./Images/Fruit.jpg);
+  background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1; */
+}
+.fr-veg-leg-card-Img1{
+  background-image: url(./Images/Fruit.jpg); 
+  /* background-color: #ffffff;*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 80%;
+  width: 100%;
+  
+}
+.fr-veg-leg-card-Img2{
+  background-image: url(./Images/vegetables.jpg); 
+  /* background-color: #ffffff;*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 80%;
+  width: 100%;
+  
+}
+.fr-veg-leg-card-Img3{
+  background-image: url(./Images/legume.jpg); 
+  /* background-color: #ffffff;*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  height: 80%;
+  width: 100%;
+  
+}
+.fr-veg-leg-card-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* gap: 0.5rem; */
+margin-top: 50px;
+}
+.fr-veg-leg-card-content h1{
+  margin-top: 40px;
+}
+.fr-veg-leg-card-content p{
+  max-width: 380px;
+  line-height: 1.4rem;
+  text-align: center;
+  margin-top: 20px;
+  /* font-family: 'Merriweather', serif; */
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Poppins', sans-serif;
+  color: #5E5E5E;
+  font-size: 1.2rem;
+  
+}
+.fr-veg-leg-card-button{
+  padding: 21px 52px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #6A9739;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 90px;
+    margin-left: 40px
+}
+
+/* Footer */
+
+footer{
+  height: 650px;
+  width: 100%;
+  background-color: #001524;
+  /* padding: 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-Main{
+  height: 80%;
+  width: 90%;
+  display: grid;
+  /* grid-template-rows: 2fr 1fr 1fr; */
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 1rem;
+ 
+}
+.footer-First{
+/* background-color: red; */
+grid-row-start: 1;
+grid-row-end: 4;
+color: white;
+padding: 20px;
+
+}
+.footer-First p{
+margin-top: 70px;
+font-size: x-large;
+}
+.footer-Second{
+  grid-row-start: 1;
+  grid-row-end: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.footer-Second-Quick-Links{
+  margin-bottom: 4rem;
+}
+.footer-Second h3{
+  color: rgba(255,255,255,0.66);
+  margin: 0.2rem;
+}
+.footer-Second-Site-Links{
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+.footer-Third{
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.footer-Third-Download{
+  color: white;
+  margin-bottom: 5px;
+}
+.footer-Third-Quick-Links{
+  color: white;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+.footer-Third h3, p{
+  color: rgba(255,255,255,0.66);
+margin: 0.2rem;
+}
+.app-Store{
+  display: flex;
+}
+.app-Store img{
+  height: 40px;
+  width: 100px;
+  margin: 25px 10px;
+}
+.copyright{
+  height: 100px;
+  width: 100%;
+  background-color: #001524;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFFA8;
+  
+}
+.copyright h1{
+  font-size: 1.5rem;
+}

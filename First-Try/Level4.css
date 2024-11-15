@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+}
+div {
+  height: 100px;
+  width: 200px;
+
+  display: inline-block;
+  border: 2px solid black;
+}
+#container {
+  width: 600px;
+  height: 300px;
+  display: flex; /*To use the felx property we need to add this*/
+  /* flex-direction: column; */
+  flex-direction: row;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  align-items: flex-start;
+  /* align-content: center; */
+  /* align-content: flex-start; Helps to remove the space between content */
+}
+#box1 {
+  background-color: aqua;
+}
+#box2 {
+  background-color: goldenrod;
+}
+#box3 {
+  background-color: red;
+  /* align-self: baseline; */
+}
+#box4 {
+  background-color: blueviolet;
+}
+#box5 {
+  background-color: green;
+}

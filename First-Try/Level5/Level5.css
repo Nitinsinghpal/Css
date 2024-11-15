@@ -1,0 +1,22 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+    /* transform: rotate(45deg); */
+    /* rotate: z 90deg; */
+    transform: scale(1,2);
+}
+
+div:hover{
+background-color: red;
+font-size: 18px;
+}
+
+div:active{
+    background-color: yellow;
+}

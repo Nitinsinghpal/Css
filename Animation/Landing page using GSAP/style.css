@@ -1,0 +1,36 @@
+@font-face {
+    font-family: cooper;
+    src: url(./font/cooperlightbt.ttf)
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: cooper;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 0 30px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav #part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
